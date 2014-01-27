@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Hello World!
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonHello:(id)sender {
+    [labelHello setText:@"UW Madison Instagram"];
+}
 @end
