@@ -21,6 +21,9 @@
 		50CA7EAB189358070064229B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CA7E8D189358070064229B /* UIKit.framework */; };
 		50CA7EB3189358070064229B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CA7EB1189358070064229B /* InfoPlist.strings */; };
 		50CA7EB5189358070064229B /* UWMadisonInstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CA7EB4189358070064229B /* UWMadisonInstagramTests.m */; };
+		50CA7EC318972C2B0064229B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CA7EC218972C2B0064229B /* SettingsViewController.m */; };
+		50CA7EC618972C6F0064229B /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CA7EC518972C6F0064229B /* ImagesViewController.m */; };
+		50CA7EC918972C750064229B /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CA7EC818972C750064229B /* PostsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		50CA7EB0189358070064229B /* UWMadisonInstagramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWMadisonInstagramTests-Info.plist"; sourceTree = "<group>"; };
 		50CA7EB2189358070064229B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50CA7EB4189358070064229B /* UWMadisonInstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWMadisonInstagramTests.m; sourceTree = "<group>"; };
+		50CA7EC118972C2B0064229B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		50CA7EC218972C2B0064229B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		50CA7EC418972C6F0064229B /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
+		50CA7EC518972C6F0064229B /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesViewController.m; sourceTree = "<group>"; };
+		50CA7EC718972C750064229B /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		50CA7EC818972C750064229B /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				50CA7E98189358070064229B /* AppDelegate.h */,
 				50CA7E99189358070064229B /* AppDelegate.m */,
 				50CA7E9B189358070064229B /* Main.storyboard */,
+				50CA7EC418972C6F0064229B /* ImagesViewController.h */,
+				50CA7EC518972C6F0064229B /* ImagesViewController.m */,
+				50CA7EC718972C750064229B /* PostsViewController.h */,
+				50CA7EC818972C750064229B /* PostsViewController.m */,
 				50CA7E9E189358070064229B /* ViewController.h */,
 				50CA7E9F189358070064229B /* ViewController.m */,
+				50CA7EC118972C2B0064229B /* SettingsViewController.h */,
+				50CA7EC218972C2B0064229B /* SettingsViewController.m */,
 				50CA7EA1189358070064229B /* Images.xcassets */,
 				50CA7E90189358070064229B /* Supporting Files */,
 			);
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CA7EA0189358070064229B /* ViewController.m in Sources */,
+				50CA7EC618972C6F0064229B /* ImagesViewController.m in Sources */,
+				50CA7EC918972C750064229B /* PostsViewController.m in Sources */,
 				50CA7E9A189358070064229B /* AppDelegate.m in Sources */,
 				50CA7E96189358070064229B /* main.m in Sources */,
+				50CA7EC318972C2B0064229B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +478,7 @@
 				50CA7EBA189358070064229B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50CA7EBB189358070064229B /* Build configuration list for PBXNativeTarget "UWMadisonInstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +487,7 @@
 				50CA7EBD189358070064229B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

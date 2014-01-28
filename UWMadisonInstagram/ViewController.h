@@ -15,4 +15,6 @@
 
 - (IBAction)buttonHello:(id)sender;
 
+@property int numberOfImagesToDisplay;
+
 @end
