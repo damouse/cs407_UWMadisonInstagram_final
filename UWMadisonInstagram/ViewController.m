@@ -29,6 +29,6 @@
 }
 
 - (IBAction)buttonHello:(id)sender {
-    [labelHello setText:@"UW Madison Instagram"];
+    [labelHello setText:@"Welcome to UW Madison Instagram"];
 }
 @end
